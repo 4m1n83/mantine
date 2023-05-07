@@ -22,6 +22,7 @@ export default createStyles((theme, { radius }: ImageStylesParams) => ({
     height: '100%',
     border: 0,
     borderRadius: theme.fn.radius(radius),
+    color: 'transparent',
   },
 
   caption: {
